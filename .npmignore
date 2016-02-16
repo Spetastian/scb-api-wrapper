@@ -2,3 +2,4 @@ source
 test
 .npmignore
 .c9
+.travis.yml
