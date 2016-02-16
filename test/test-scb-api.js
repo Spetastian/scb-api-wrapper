@@ -1,4 +1,4 @@
-var ScbApi = require('../dist/scb-api').ScbApi;
+var ScbApi = require('../bin/scb-api').ScbApi;
 var scb = new ScbApi();
 var fakeData = require('./fake-data');
 var nock = require("nock");

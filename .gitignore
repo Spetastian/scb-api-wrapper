@@ -27,7 +27,7 @@ build/Release
 node_modules
 
 # Build output directory
-dist
+bin
 
 # Optional npm cache directory
 .npm
