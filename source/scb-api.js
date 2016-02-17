@@ -1,6 +1,6 @@
 "use strict"
 let url = require("url");
-let Promise = require("bluebird");
+import Promise  from 'bluebird';
 let request = Promise.promisify(require("request"));
 const standardBaseUrl = 'http://api.scb.se/OV0104/v1/doris/sv/ssd';
 
