@@ -1,7 +1,7 @@
 {
   "name": "scb-api-wrapper",
   "version": "1.0.3",
-  "description": "A wrapper for Swedish SCB open data API.",
+  "description": "A wrapper for Swedish SCB open data API",
   "main": "dist/scb-api.js",
   "scripts": {
     "pretest": "npm run build",
