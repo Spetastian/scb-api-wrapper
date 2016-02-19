@@ -75,7 +75,7 @@ describe('ScbApi', function() {
         
     describe('#getSurveys', function(){
         
-        it('should return five subjects for first level id: AM and second level id: AM0401 and third level id: AM0401I', function(done){
+        it('should return five subjects for first level id: AM and second level id: AM0401 and third level id: AM0401I ', function(done){
             scb.getSurveys('AM', 'AM0401', 'AM0401I').then(function(surveys){
                 expect(surveys).to.have.length(5);
                 done();
